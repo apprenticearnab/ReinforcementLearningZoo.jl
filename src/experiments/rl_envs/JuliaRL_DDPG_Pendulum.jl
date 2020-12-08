@@ -93,12 +93,5 @@ function RLCore.Experiment(
         end,
     )
 
-    Experiment(
-        agent,
-        env,
-        stop_condition,
-        hook,
-        "# Play Pendulum with DDPG",
-    )
+    Experiment(agent, env, stop_condition, hook, "# Play Pendulum with DDPG")
 end
-
